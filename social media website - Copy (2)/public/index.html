@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers as Art</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="css/styles.css">
+ 
+</head>
+
+<body>
+
+  <!-- Header Section with Navigation -->
+  <header>
+    <h1>Sneakers: Are They a Work of Art?</h1>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#login">Login</a>
+      <a href="#register">Register</a> <!-- New Register link -->
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h2>Can Sneakers Be Considered a Form of Art?</h2>
+    <p>Sneakers have evolved from being mere functional footwear to a form of self-expression, fashion, and even art. Over the years, collaborations between sneaker brands and artists have elevated sneakers to new heights of cultural significance.</p>
+    <p>Some sneakers are designed with unique materials, bold colors, and intricate designs, making them highly coveted by collectors and enthusiasts alike. But what makes sneakers truly stand out is their ability to blend fashion, utility, and artistic vision into a wearable masterpiece.</p>
+
+    <div class="image-container">
+      <img src="https://www.example.com/sneaker-image.jpg" alt="Sneakers as Art">
+    </div>
+
+    <p>Join the conversation and explore how sneakers can be appreciated not only for their practicality but also for their artistic flair.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Sneakers as Art</h2>
+    <p>Sneakers, originally designed for comfort and sports, have now become a cultural symbol, representing artistic innovation. Collaborations with renowned artists, designers, and brands have transformed sneakers into unique works of art.</p>
+    <p>From limited-edition releases to one-of-a-kind custom designs, sneakers showcase creativity and craftsmanship. They are not just shoes—they are a canvas, a statement, and a part of modern culture.</p>
+  </section>
+
+  <!-- login section -->
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="login-error" style="display: none;">Invalid username or password.</p>
+    <p id="login-success" style="display: none;">Login successful!</p>
+  </section>
+
+  <!-- registration section -->
+  <section id="register" class="section register">
+    <h2>Register</h2>
+    <form id="register-form">
+        <input type="text" id="registerName" placeholder="Full Name">
+        <input type="text" id="registerUsername" placeholder="Username">
+        <input type="password" id="registerPassword" placeholder="Password">
+        <button type="submit">Register</button>
+    </form>
+    <p id="register-error" style="color: red; display: none;">Registration failed. Please try again.</p>
+    <p id="register-success" style="color: green; display: none;">Registration successful!</p>
+</section>
+
+<!-- search section to find other users -->
+<section id="user-search" class="section search">
+  <h2>Search for Users</h2>
+  <input type="text" id="searchInput" placeholder="Search by username or name...">
+  <button onclick="searchUsers()">Search</button>
+  <div id="searchResults"></div>
+</section>
+
+
+<!-- weather section -->
+<section id="weather-section">
+  <h2>Check the Weather</h2>
+  <input type="text" id="city-input" placeholder="Enter city name">
+  <button onclick="fetchWeather()">Get Weather</button>
+  <div id="weather-results"></div>
+</section>
+
+
+
+<!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Sneakers Art. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>

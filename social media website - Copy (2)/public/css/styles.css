@@ -1,0 +1,312 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.pinimg.com/736x/7e/0f/3f/7e0f3feae4627c6cb7a1a2b3bdab00e3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;  /* Default text color set to white for better contrast */
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 3rem 2rem;  /* Increased padding for better spacing */
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 3rem;  /* Increased font size for emphasis */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow for better visibility */
+}
+
+header .navbar {
+  margin-top: 1rem;
+}
+
+header .navbar a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+header .navbar a:hover {
+  color: #007bff;
+}
+
+/* Section Styles */
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Section */
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow for readability */
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;  /* Improved line spacing for better readability */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.image-container img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Login Section */
+.login h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form input {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8); /* Lighter background for input fields */
+  color: #333; /* Dark text color for better contrast */
+}
+
+.login-form button {
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease; /* Smooth transition effect for hover */
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Register Section */
+.register h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Matching the other section headings */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.register-form input {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8); /* Lighter background for input fields */
+  color: #333; /* Ensuring text contrast */
+}
+
+.register-form button {
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease; /* Smooth transition effect for hover */
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure the register section has the same background and styling as the other sections */
+.register {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Section */
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+
+
+
+/* General styling for the login and register sections */
+.section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 500px;
+  background-color: gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Error and success messages for register section */
+#register-error, #login-error {
+  color: red;
+  display: none;
+}
+
+#register-success, #login-success {
+  color: green;
+  display: none;
+}
+
+
+
+/* Search Section */
+.section.search {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field for search */
+#searchInput {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search button */
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Results container */
+#searchResults {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* User box styling */
+.user-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}
+
+
+/* not fullly functional */
+/* css for followed user contents */
+.post {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.post h3 {
+  margin: 0 0 0.5em;
+}
+.post em {
+  font-size: 0.9em;
+  color: #666;
+}
